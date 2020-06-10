@@ -3,8 +3,15 @@ body {
   margin: 20px;
   font-weight: bold;
   color: red;
+  background-color: #FAFAD2;
+  padding-left: 10%;
+  padding-right: 10%;
 }
-
+h1{
+  font: 50px "Century Gothic", Futura, sans-serif, bold;
+  text-align: center;
+  background-color: aquamarine;
+}
 ol, ul {
   padding-left: 30px;
 }
@@ -21,17 +28,17 @@ ol, ul {
 
 .square {
   background: #fff;
-  border: 1px solid #999;
+  border: 3px solid #999;
   float: left;
   font-size: 30px;
   font-weight: bold;
   line-height: 34px;
-  height: 34px;
+  height: 70px;
   margin-right: -1px;
   margin-top: -1px;
-  padding: 0;
+  padding: 5;
   text-align: center;
-  width: 34px;
+  width: 70px;
   color: blue;
 }
 
@@ -46,8 +53,29 @@ ol, ul {
 .game {
   display: flex;
   flex-direction: row;
+  padding-right: 20%;
+  padding-left: 37%;
+}
+
+.game-board{
+  padding-top: 35%;
 }
 
 .game-info {
   margin-left: 20px;
+  font-size: larger;
+}
+
+button{
+  background-color: #FFA07A; /* Green */
+  border: none;
+  color: white;
+  padding: 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 13px;
+  margin: 2px 2px;
+  cursor: pointer;
+  border-radius: 8px;
 }
